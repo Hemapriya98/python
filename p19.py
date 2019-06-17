@@ -1,0 +1,8 @@
+tin=int(input())
+l1=[]
+for i in range(tin):
+	l0=list(map(int,input().split()))
+	for i in l0:
+		l1.append(i)
+l1.sort()
+print(*l1)
