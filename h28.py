@@ -1,11 +1,11 @@
 t=input()
-l=list(t)
-k=list(set(list(t)))
+lin=list(t)
+kin=list(set(list(t)))
 p=[]
-for i in range(0,len(k)):
-	p.append([l.index(k[i]),k[i]])
+for i in range(0,len(kin)):
+	p.append([lin.index(kin[i]),kin[i]])
 p.sort()
 f=""
-for i in range(0,len(k)):
+for i in range(0,len(kin)):
 	f=f+p[i][1]
 print(f)
