@@ -1,8 +1,8 @@
-ain,bin=map(int,input().split())
-if ain<=bin:
+ain,bi=map(int,input().split())
+if ain<=bi:
   d=ain2
 else:
-  d=bin2
+  d=bi2
 m=[]
 for i in range(0,d):
   m.append(sorted(list(map(int,input().split()))))
