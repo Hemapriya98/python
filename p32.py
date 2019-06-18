@@ -1,15 +1,16 @@
-ain,bi=map(int,input().split())
-if ain<=bi:
-  d=ain2
+a1,b1=map(int,input().split())
+if a1<=b1:
+  d=a1
 else:
-  d=bi2
-m=[]
+  d=b1
+z=[]
 for i in range(0,d):
-  m.append(sorted(list(map(int,input().split()))))
-m=sorted(m)
-for i in range(0,len(m[0])):
-  for j in range(0,len(m)-1):
-    if m[j][i]>m[j+1][i]:
-      m[j][i],m[j+1][i]=m[j+1][i],m[j][i]
-for i in m:
+  z.append(sorted(list(map(int,input().split()))))
+z=sorted(z)
+for i in range(0,len(z[0])):
+  for j in range(0,len(z)-1):
+    if z[j][i]>z[j+1][i]:
+      z[j][i],z[j+1][i]=z[j+1][i],z[j][i]
+for i in z:
   print(*i)
+
