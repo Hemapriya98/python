@@ -1,16 +1,16 @@
 #hema
-nin=input()
-if nin==nin[::-1]:
+n=input()
+if n==n[::-1]:
     print("yes")
 else:
-    value=nin.strip("0")
+    vin=n.strip("0")
     
-    if value==value[::-1]:
+    if vin==vin[::-1]:
         print("yes")
     else:
-        value=nin.lstrip("0")
+        vin=n.lstrip("0")
         
-        if value==value[::-1]:
+        if vin==vin[::-1]:
             print("yes")
         else:
             print("no")
